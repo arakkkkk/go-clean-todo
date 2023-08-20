@@ -31,3 +31,7 @@ flowchart TB
     usecase-->entity
 ```
 
+## Todo
+- [x] アプリ作成
+- [ ] アーキテクチャーの確認とREADME修正
+- [ ] テスト作成

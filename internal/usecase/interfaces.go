@@ -1,4 +1,4 @@
-package usecase  
+package usecase
 
 import (
 	"context"
@@ -6,9 +6,8 @@ import (
 )
 
 type (
-  Todo interface {
-    List(context.Context) ([]entity.Todo, error)
-    Add(context.Context, entity.Todo) (entity.Todo, error)
-  }
+	Todo interface {
+		List(context.Context) ([]entity.Todo, error)
+		Add(context.Context, entity.Todo) (entity.Todo, error)
+	}
 )
-

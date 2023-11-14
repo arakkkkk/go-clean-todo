@@ -1,9 +1,9 @@
 package main
 
 import (
-  "todo/internal/app"
+	"todo/internal/app"
 )
 
 func main() {
-  app.Run()
+	app.Run()
 }
